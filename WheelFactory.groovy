@@ -34,7 +34,7 @@ RollerBase.setScriptingName("RollerBase")
 RollerBase.setRobotToFiducialTransform(new TransformNR(-args.diameter/2,0,0))
 double increment = 360/args.numRollers
 int totalRollers=0;
-for(double j=0;j<args.numberOfRows;j++)
+for(double j=0;j<1;j++)
 for(double i=0;i<args.numRollers;i++) {
 	totalRollers++;
 	DHParameterKinematics rollerLimb = new DHParameterKinematics();
