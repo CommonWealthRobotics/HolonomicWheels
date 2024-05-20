@@ -1,5 +1,4 @@
-import static com.neuronrobotics.sdk.addons.kinematics.VitaminFrame.LinkOrigin
-import static com.neuronrobotics.sdk.addons.kinematics.VitaminFrame.previousLinkTip
+import static com.neuronrobotics.sdk.addons.kinematics.VitaminFrame.*
 
 import com.neuronrobotics.sdk.addons.kinematics.AbstractLink
 import com.neuronrobotics.sdk.addons.kinematics.DHLink
