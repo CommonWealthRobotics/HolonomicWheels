@@ -23,7 +23,15 @@ if(args==null) {
 	args.put("shaftType","vexWheels")
 	args.put("shaftSize","4InchOmni")
 	args.put("wheelName", "uniqueName")
+	MobileBase g = new MobileBase();
+	g.setGitSelfSource(["https://github.com/CommonWealthRobotics/HolonomicWheels.git","HolonomicExample.xml"]as String[])
+	g.setMassKg(0.001)
+	g.setScriptingName("OmniWheelGenerated")
+	
+	args.put("base", g)
 }
+
+MobileBase generated = args.base
 for(String key:args.keySet()) {
 	//println "Key "+key+" value "+args.get(key)
 }
@@ -34,7 +42,7 @@ RollerBase.setScriptingName("RollerBase")
 RollerBase.setRobotToFiducialTransform(new TransformNR(-args.diameter/2,0,0))
 double increment = 360/args.numRollers
 int totalRollers=0;
-for(double j=0;j<1;j++)
+for(double j=0;j<args.numberOfRows;j++)
 for(double i=0;i<args.numRollers;i++) {
 	totalRollers++;
 	DHParameterKinematics rollerLimb = new DHParameterKinematics();
@@ -76,9 +84,7 @@ for(double i=0;i<args.numRollers;i++) {
 	rollerLimb.addNewLink(rollerConfig, dhRoller)
 	RollerBase.getDrivable().add(rollerLimb);
 }
-MobileBase generated = new MobileBase();
-generated.setMassKg(0.001)
-generated.setScriptingName("OmniWheelGenerated")
+
 // Create the limb for the wheel
 DHParameterKinematics wheelLimb = new DHParameterKinematics();
 generated.getDrivable().add(wheelLimb);
@@ -105,7 +111,6 @@ DHLink dh = new DHLink(0, 0, args.diameter/2, 0);
 dh.setListener(new Affine());
 dh.setSlaveMobileBase(RollerBase)
 
-
-
 wheelLimb.addNewLink(wheelConfig, dh)
+
 return generated
