@@ -38,6 +38,9 @@ for(double j=0;j<args.numberOfRows;j++)
 for(double i=0;i<args.numRollers;i++) {
 	totalRollers++;
 	DHParameterKinematics rollerLimb = new DHParameterKinematics();
+	String _roller_TotalRollers = args.wheelName+"_roller_"+totalRollers
+	println "Adding Limb "+_roller_TotalRollers
+	rollerLimb.setScriptingName(_roller_TotalRollers)
 	double rotationAngle =(increment)*i +(j*increment/2)
 	TransformNR rotation = new TransformNR(0,0,0,RotationNR.getRotationZ(rotationAngle))
 	TransformNR displacemtn = new TransformNR(args.diameter/2,0,args.rollerDiameter/2 +((j*args.HubHeight) - j*args.rollerDiameter))
@@ -66,7 +69,7 @@ for(double i=0;i<args.numRollers;i++) {
 	rollerConfig.addVitamin(rollerShaft)
 	rollerConfig.addVitamin(roller)
 	
-	rollerConfig.setName(args.wheelName+"_roller"+totalRollers)
+	rollerConfig.setName(_roller_TotalRollers)
 	
 	DHLink dhRoller = new DHLink(0, 0, 0, 0);
 	dhRoller.setListener(new Affine());
