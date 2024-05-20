@@ -30,6 +30,8 @@ for(String key:args.keySet()) {
 MobileBase RollerBase = new MobileBase();
 RollerBase.setMassKg(0.001)
 RollerBase.setScriptingName("RollerBase")
+RollerBase.setRobotToFiducialTransform(new TransformNR(-args.diameter/2,0,0))
+
 MobileBase generated = new MobileBase();
 generated.setMassKg(0.001)
 generated.setScriptingName("OmniWheelGenerated")
