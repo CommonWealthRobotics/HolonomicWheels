@@ -6,6 +6,7 @@ import com.neuronrobotics.sdk.addons.kinematics.DHParameterKinematics
 import com.neuronrobotics.sdk.addons.kinematics.LinkConfiguration
 import com.neuronrobotics.sdk.addons.kinematics.MobileBase
 import com.neuronrobotics.sdk.addons.kinematics.VitaminLocation
+import com.neuronrobotics.sdk.addons.kinematics.math.RotationNR
 import com.neuronrobotics.sdk.addons.kinematics.math.TransformNR
 
 import javafx.scene.transform.Affine
@@ -30,7 +31,43 @@ MobileBase RollerBase = new MobileBase();
 RollerBase.setMassKg(0.001)
 RollerBase.setScriptingName("RollerBase")
 RollerBase.setRobotToFiducialTransform(new TransformNR(-args.diameter/2,0,0))
-
+double increment = 360/args.numRollers
+for(double j=0;j<args.numberOfRows;j++)
+for(double i=0;i<args.numRollers;i++) {
+	DHParameterKinematics rollerLimb = new DHParameterKinematics();
+	double rotationAngle =(increment)*i +(j*increment/2)
+	TransformNR rotation = new TransformNR(0,0,0,RotationNR.getRotationZ(rotationAngle))
+	TransformNR displacemtn = new TransformNR(args.diameter/2,0,args.rollerDiameter/2 +((j*args.HubHeight) - j*args.rollerDiameter))
+	TransformNR rollerLocation = rotation
+				.times(displacemtn)
+				.times(new TransformNR(0,0,0,RotationNR.getRotationX(90)))
+	
+	rollerLimb.setRobotToFiducialTransform(rollerLocation)
+	RollerBase.getDrivable().add(rollerLimb);
+	
+	LinkConfiguration rollerConfig = new LinkConfiguration();
+	rollerConfig.setPassive(true)
+	VitaminLocation rollerShaft = new VitaminLocation("electroMechanical",
+			"steelPin",
+			"2x10mm",
+			new TransformNR())
+	VitaminLocation roller = new VitaminLocation("shaft",
+		"omniWheelRoller",
+		"4inch13Roller",
+		new TransformNR())
+	
+	rollerConfig.setUpperVelocity(1200)
+	rollerConfig.setDeviceScriptingName("virtualDev")
+	rollerShaft.setFrame(previousLinkTip)
+	roller.setFrame(LinkOrigin)
+	rollerConfig.addVitamin(rollerShaft)
+	rollerConfig.addVitamin(roller)
+		  
+	DHLink dhRoller = new DHLink(0, 0, 0, 0);
+	dhRoller.setListener(new Affine());
+	rollerLimb.addNewLink(rollerConfig, dhRoller)
+	RollerBase.getDrivable().add(rollerLimb);
+}
 MobileBase generated = new MobileBase();
 generated.setMassKg(0.001)
 generated.setScriptingName("OmniWheelGenerated")
@@ -59,6 +96,8 @@ wheelConfig.addVitamin(local2)
 DHLink dh = new DHLink(0, 0, args.diameter/2, 0);
 dh.setListener(new Affine());
 dh.setSlaveMobileBase(RollerBase)
+
+
 
 wheelLimb.addNewLink(wheelConfig, dh)
 return generated
