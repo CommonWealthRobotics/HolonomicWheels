@@ -22,9 +22,10 @@ if(args==null) {
 	args.put("electroMechanicalSize","v5_11w")
 	args.put("shaftType","vexWheels")
 	args.put("shaftSize","4InchOmni")
+	args.put("wheelName", "uniqueName")
 }
 for(String key:args.keySet()) {
-	println "Key "+key+" value "+args.get(key)
+	//println "Key "+key+" value "+args.get(key)
 }
 
 MobileBase RollerBase = new MobileBase();
@@ -32,8 +33,10 @@ RollerBase.setMassKg(0.001)
 RollerBase.setScriptingName("RollerBase")
 RollerBase.setRobotToFiducialTransform(new TransformNR(-args.diameter/2,0,0))
 double increment = 360/args.numRollers
+int totalRollers=0;
 for(double j=0;j<args.numberOfRows;j++)
 for(double i=0;i<args.numRollers;i++) {
+	totalRollers++;
 	DHParameterKinematics rollerLimb = new DHParameterKinematics();
 	double rotationAngle =(increment)*i +(j*increment/2)
 	TransformNR rotation = new TransformNR(0,0,0,RotationNR.getRotationZ(rotationAngle))
@@ -57,12 +60,14 @@ for(double i=0;i<args.numRollers;i++) {
 		new TransformNR())
 	
 	rollerConfig.setUpperVelocity(1200)
-	rollerConfig.setDeviceScriptingName("virtualDev")
+	rollerConfig.setDeviceScriptingName("rollers")
 	rollerShaft.setFrame(previousLinkTip)
 	roller.setFrame(LinkOrigin)
 	rollerConfig.addVitamin(rollerShaft)
 	rollerConfig.addVitamin(roller)
-		  
+	
+	rollerConfig.setName(args.wheelName+"_roller"+totalRollers)
+	
 	DHLink dhRoller = new DHLink(0, 0, 0, 0);
 	dhRoller.setListener(new Affine());
 	rollerLimb.addNewLink(rollerConfig, dhRoller)
@@ -76,7 +81,7 @@ DHParameterKinematics wheelLimb = new DHParameterKinematics();
 generated.getDrivable().add(wheelLimb);
 
 LinkConfiguration wheelConfig = new LinkConfiguration();
-
+wheelConfig.setName(args.wheelName)
 VitaminLocation local = new VitaminLocation("electroMechanical",
 		args.electroMechanicalType.toString(),
 		args.electroMechanicalSize.toString(),
