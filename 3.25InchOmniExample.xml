@@ -60,7 +60,7 @@
 		<vitamin>
 			<name>shaft</name>
 			<type>vexWheels</type>
-			<id>4InchOmni</id>
+			<id>3_25InchOmni</id>
 			<pose>
 	<x>0.0</x>
 	<y>0.0</y>
@@ -98,7 +98,7 @@
 	<DHParameters>
 		<Delta>0.0</Delta>
 		<Theta>0.0</Theta>
-		<Radius>50.8</Radius>
+		<Radius>41.275</Radius>
 		<Alpha>0.0</Alpha>
 
 		<mobilebase>
@@ -208,19 +208,19 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>50.8</x>
+	<x>41.275</x>
 	<y>0.0</y>
 	<z>4.0</z>
 	<rotw>0.7071067811865476</rotw>
@@ -327,25 +327,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>44.98116610318623</x>
-	<y>23.607937139817405</y>
-	<z>4.0</z>
-	<rotw>0.6865595432395636</rotw>
-	<rotx>0.6865595432395635</rotx>
-	<roty>0.16922172906184926</roty>
-	<rotz>0.1692217290618493</rotz>
+	<x>34.72273956759637</x>
+	<y>22.31494974049632</y>
+	<z>3.999999999999999</z>
+	<rotw>0.6784639881436089</rotw>
+	<rotx>0.6784639881436086</rotx>
+	<roty>0.19921500142376095</roty>
+	<rotz>0.199215001423761</rotz>
 
 </baseToZframe>
 
@@ -446,25 +446,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>28.857689133953944</x>
-	<y>41.80758038739</y>
+	<x>17.146254661617125</x>
+	<y>37.54506060827406</y>
 	<z>4.0</z>
-	<rotw>0.6261119601819185</rotw>
-	<rotx>0.6261119601819184</rotx>
-	<roty>0.32860890632658724</roty>
-	<rotz>0.3286089063265873</rotz>
+	<rotw>0.5948560777618862</rotw>
+	<rotx>0.5948560777618861</rotx>
+	<roty>0.3822907882093745</roty>
+	<rotz>0.38229078820937457</rotz>
 
 </baseToZframe>
 
@@ -565,25 +565,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>6.12326335699072</x>
-	<y>50.429610804178665</y>
+	<x>-5.874044949788166</x>
+	<y>40.85488001362712</y>
 	<z>4.0</z>
-	<rotw>0.5292770258228963</rotw>
-	<rotx>0.529277025822896</rotx>
-	<roty>0.468898528400409</roty>
-	<rotz>0.46889852840040913</rotz>
+	<rotw>0.4630564657051292</rotw>
+	<rotx>0.4630564657051291</rotx>
+	<roty>0.5343956489050734</roty>
+	<rotz>0.5343956489050735</rotz>
 
 </baseToZframe>
 
@@ -684,25 +684,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-18.01392826173532</x>
-	<y>47.49882512842875</y>
-	<z>4.000000000000002</z>
-	<rotw>-0.4016824345667751</rotw>
-	<rotx>-0.401682434566775</rotx>
-	<roty>-0.5819374723804168</roty>
-	<rotz>-0.5819374723804169</rotz>
+	<x>-27.02937679365102</x>
+	<y>31.193563681420557</y>
+	<z>4.0</z>
+	<rotw>-0.2937427726997196</rotw>
+	<rotx>-0.2937427726997195</rotx>
+	<roty>-0.6432069522997095</roty>
+	<rotz>-0.6432069522997097</rotz>
 
 </baseToZframe>
 
@@ -803,25 +803,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-38.02434600706932</x>
-	<y>33.68663103865792</y>
+	<x>-39.60307248596605</x>
+	<y>11.62851128353576</y>
 	<z>4.0</z>
-	<rotw>-0.2507435202698886</rotw>
-	<rotx>-0.25074352026988855</rotx>
-	<roty>-0.6611563257223392</roty>
-	<rotz>-0.6611563257223394</rotz>
+	<rotw>-0.10063178720567391</rotw>
+	<rotx>-0.10063178720567388</rotx>
+	<roty>-0.6999094537179733</roty>
+	<rotz>-0.6999094537179735</rotz>
 
 </baseToZframe>
 
@@ -922,25 +922,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-49.32384432523365</x>
-	<y>12.157235745847665</y>
-	<z>4.0</z>
-	<rotw>-0.0852323039905363</rotw>
-	<rotx>-0.08523230399053627</rotx>
-	<roty>-0.7019511766187622</roty>
-	<rotz>-0.7019511766187624</rotz>
+	<x>-39.60307248590518</x>
+	<y>-11.628511283743086</y>
+	<z>4.000000000000002</z>
+	<rotw>0.10063178720750594</rotw>
+	<rotx>0.10063178720750593</rotx>
+	<roty>-0.69990945371771</roty>
+	<rotz>-0.6999094537177101</rotz>
 
 </baseToZframe>
 
@@ -1041,25 +1041,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-49.32384432525486</x>
-	<y>-12.157235745761591</y>
-	<z>3.999999999999999</z>
-	<rotw>0.08523230398992382</rotw>
-	<rotx>0.08523230398992379</rotx>
-	<roty>-0.7019511766188365</roty>
-	<rotz>-0.7019511766188368</rotz>
+	<x>-27.029376793487724</x>
+	<y>-31.193563681562054</y>
+	<z>4.0</z>
+	<rotw>0.2937427727014031</rotw>
+	<rotx>0.29374277270140303</rotx>
+	<roty>-0.6432069522989408</roty>
+	<rotz>-0.6432069522989409</rotz>
 
 </baseToZframe>
 
@@ -1160,25 +1160,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-38.0243460071281</x>
-	<y>-33.686631038591564</y>
-	<z>3.9999999999999982</z>
-	<rotw>0.2507435202693117</rotw>
-	<rotx>0.2507435202693117</rotx>
-	<roty>-0.661156325722558</roty>
-	<rotz>-0.661156325722558</rotz>
+	<x>-5.874044949574285</x>
+	<y>-40.854880013657855</y>
+	<z>3.999999999999999</z>
+	<rotw>0.46305646570652803</rotw>
+	<rotx>0.4630564657065279</rotx>
+	<roty>-0.5343956489038613</roty>
+	<rotz>-0.5343956489038614</rotz>
 
 </baseToZframe>
 
@@ -1279,25 +1279,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-18.013928261818197</x>
-	<y>-47.49882512839731</y>
-	<z>3.999999999999999</z>
-	<rotw>0.4016824345662674</rotw>
-	<rotx>0.4016824345662673</rotx>
-	<roty>-0.5819374723807673</roty>
-	<rotz>-0.5819374723807673</rotz>
+	<x>17.146254661813664</x>
+	<y>-37.54506060818431</y>
+	<z>4.0</z>
+	<rotw>0.5948560777628868</rotw>
+	<rotx>0.5948560777628867</rotx>
+	<roty>-0.38229078820781753</roty>
+	<rotz>-0.3822907882078176</rotz>
 
 </baseToZframe>
 
@@ -1398,25 +1398,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>6.123263356902692</x>
-	<y>-50.429610804189366</y>
-	<z>4.0</z>
-	<rotw>0.529277025822487</rotw>
-	<rotx>0.5292770258224868</rotx>
-	<roty>-0.468898528400871</roty>
-	<rotz>-0.4688985284008711</rotz>
+	<x>34.722739567713205</x>
+	<y>-22.314949740314518</y>
+	<z>3.999999999999999</z>
+	<rotw>0.6784639881441303</rotw>
+	<rotx>0.6784639881441302</rotx>
+	<roty>-0.19921500142198484</roty>
+	<rotz>-0.19921500142198487</rotz>
 
 </baseToZframe>
 
@@ -1517,25 +1517,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>28.85768913388095</x>
-	<y>-41.80758038744037</y>
-	<z>4.0</z>
-	<rotw>0.6261119601816316</rotw>
-	<rotx>0.6261119601816315</rotx>
-	<roty>-0.3286089063271338</roty>
-	<rotz>-0.32860890632713385</rotz>
+	<x>39.60307248593561</x>
+	<y>11.628511283639437</y>
+	<z>20.0</z>
+	<rotw>0.6999094537178417</rotw>
+	<rotx>0.6999094537178416</rotx>
+	<roty>0.10063178720659004</roty>
+	<rotz>0.10063178720659005</rotz>
 
 </baseToZframe>
 
@@ -1636,25 +1636,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>44.98116610314503</x>
-	<y>-23.6079371398959</y>
-	<z>4.0</z>
-	<rotw>0.6865595432394159</rotw>
-	<rotx>0.6865595432394158</rotx>
-	<roty>-0.1692217290624483</roty>
-	<rotz>-0.16922172906244837</rotz>
+	<x>27.029376793569377</x>
+	<y>31.193563681491305</y>
+	<z>20.0</z>
+	<rotw>0.6432069522993253</rotw>
+	<rotx>0.6432069522993251</rotx>
+	<roty>0.2937427727005612</roty>
+	<rotz>0.2937427727005613</rotz>
 
 </baseToZframe>
 
@@ -1755,25 +1755,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>49.32384432524424</x>
-	<y>12.157235745804625</y>
-	<z>19.999999999999996</z>
-	<rotw>0.7019511766187996</rotw>
-	<rotx>0.7019511766187994</rotx>
-	<roty>0.08523230399023009</roty>
-	<rotz>0.0852323039902301</rotz>
+	<x>5.87404494968123</x>
+	<y>40.85488001364249</y>
+	<z>20.0</z>
+	<rotw>0.5343956489044674</rotw>
+	<rotx>0.5343956489044674</rotx>
+	<roty>0.46305646570582853</roty>
+	<rotz>0.46305646570582865</rotz>
 
 </baseToZframe>
 
@@ -1874,25 +1874,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>38.02434600709872</x>
-	<y>33.68663103862474</y>
+	<x>-17.146254661715393</x>
+	<y>37.545060608229186</y>
 	<z>20.0</z>
-	<rotw>0.6611563257224488</rotw>
-	<rotx>0.6611563257224486</rotx>
-	<roty>0.25074352026960006</roty>
-	<rotz>0.25074352026960006</rotz>
+	<rotw>-0.38229078820859613</rotw>
+	<rotx>-0.3822907882085961</rotx>
+	<roty>-0.5948560777623864</roty>
+	<rotz>-0.5948560777623866</rotz>
 
 </baseToZframe>
 
@@ -1993,25 +1993,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>18.013928261776755</x>
-	<y>47.498825128413024</y>
+	<x>-34.72273956765479</x>
+	<y>22.314949740405424</y>
 	<z>20.0</z>
-	<rotw>0.5819374723805922</rotw>
-	<rotx>0.5819374723805919</rotx>
-	<roty>0.4016824345665211</roty>
-	<rotz>0.4016824345665212</rotz>
+	<rotw>-0.19921500142287288</rotw>
+	<rotx>-0.19921500142287282</rotx>
+	<roty>-0.6784639881438695</roty>
+	<rotz>-0.6784639881438695</rotz>
 
 </baseToZframe>
 
@@ -2112,25 +2112,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-6.123263356946717</x>
-	<y>50.42961080418403</y>
+	<x>-41.275</x>
+	<y>-1.080490109653656E-10</y>
 	<z>20.0</z>
-	<rotw>0.4688985284006401</rotw>
-	<rotx>0.46889852840063995</rotx>
-	<roty>0.5292770258226915</roty>
-	<rotz>0.5292770258226916</rotz>
+	<rotw>9.255262065912738E-13</rotw>
+	<rotx>9.255262065912736E-13</rotx>
+	<roty>-0.7071067811865475</roty>
+	<rotz>-0.7071067811865476</rotz>
 
 </baseToZframe>
 
@@ -2231,25 +2231,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-28.857689133917464</x>
-	<y>41.807580387415186</y>
-	<z>20.00000000000003</z>
-	<rotw>-0.3286089063268605</rotw>
-	<rotx>-0.3286089063268604</rotx>
-	<roty>-0.626111960181775</roty>
-	<rotz>-0.6261119601817751</rotz>
+	<x>-34.722739567537985</x>
+	<y>-22.31494974058719</y>
+	<z>20.0</z>
+	<rotw>0.19921500142464865</rotw>
+	<rotx>0.19921500142464862</rotx>
+	<roty>-0.6784639881433481</roty>
+	<rotz>-0.6784639881433482</rotz>
 
 </baseToZframe>
 
@@ -2350,25 +2350,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-44.98116610316562</x>
-	<y>23.607937139856666</y>
+	<x>-17.146254661518842</x>
+	<y>-37.54506060831895</y>
 	<z>20.0</z>
-	<rotw>-0.16922172906214897</rotw>
-	<rotx>-0.16922172906214894</rotx>
-	<roty>-0.6865595432394895</roty>
-	<rotz>-0.6865595432394898</rotz>
+	<rotw>0.38229078821015317</rotw>
+	<rotx>0.38229078821015305</rotx>
+	<roty>-0.5948560777613857</roty>
+	<rotz>-0.5948560777613858</rotz>
 
 </baseToZframe>
 
@@ -2469,25 +2469,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-50.8</x>
-	<y>4.433609431139262E-11</y>
-	<z>20.0</z>
-	<rotw>-3.085664659341736E-13</rotw>
-	<rotx>-3.0856646593417354E-13</rotx>
-	<roty>-0.7071067811865475</roty>
-	<rotz>-0.7071067811865476</rotz>
+	<x>5.87404494989512</x>
+	<y>-40.854880013611734</y>
+	<z>19.999999999999996</z>
+	<rotw>0.5343956489056796</rotw>
+	<rotx>0.5343956489056796</rotx>
+	<roty>-0.46305646570442965</roty>
+	<rotz>-0.46305646570442976</rotz>
 
 </baseToZframe>
 
@@ -2588,25 +2588,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-44.981166103206824</x>
-	<y>-23.60793713977815</y>
-	<z>19.999999999999996</z>
-	<rotw>0.16922172906154978</rotw>
-	<rotx>0.16922172906154972</rotx>
-	<roty>-0.6865595432396373</roty>
-	<rotz>-0.6865595432396374</rotz>
+	<x>27.029376793732677</x>
+	<y>-31.193563681349804</y>
+	<z>20.0</z>
+	<rotw>0.6432069523000942</rotw>
+	<rotx>0.6432069523000941</rotx>
+	<roty>-0.2937427726988776</roty>
+	<rotz>-0.2937427726988777</rotz>
 
 </baseToZframe>
 
@@ -2707,501 +2707,25 @@
 
 <ZframeToRAS
 >
-	<x>-7.105427357601002E-15</x>
+	<x>0.0</x>
 	<y>100.0</y>
 	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
+	<rotw>0.5000000000000001</rotw>
+	<rotx>-0.4999999999999999</rotx>
+	<roty>0.5</roty>
+	<rotz>0.5</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-28.857689133990394</x>
-	<y>-41.80758038736483</y>
-	<z>20.0</z>
-	<rotw>0.32860890632631434</rotw>
-	<rotx>0.32860890632631423</rotx>
-	<roty>-0.6261119601820616</roty>
-	<rotz>-0.6261119601820618</rotz>
-
-</baseToZframe>
-
-</drivable>
-<drivable>
-
-<name>uniqueName_roller_23</name>
-	<cadEngine>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleCad.groovy</file>
-	</cadEngine>
-	<kinematics>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleKinematics.groovy</file>
-	</kinematics>
-<link>
-	<name>uniqueName_roller_23</name>
-	<deviceName>rollers</deviceName>
-	<type>virtual</type>
-	<index>0</index>
-	<scale>1.0</scale>
-	<upperLimit>100000.0</upperLimit>
-	<lowerLimit>-100000.0</lowerLimit>
-	<upperVelocity>1200.0</upperVelocity>
-	<lowerVelocity>-1200.0</lowerVelocity>
-	<staticOffset>0.0</staticOffset>
-	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
-	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
-	<isLatch>false</isLatch>
-	<indexLatch>0.0</indexLatch>
-	<isStopOnLatch>false</isStopOnLatch>
-	<homingTPS>10000000</homingTPS>
-
-	<vitamins>
-
-		<vitamin>
-			<name>electroMechanical</name>
-			<type>steelPin</type>
-			<id>2x10mm</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>shaft</name>
-			<type>omniWheelRoller</type>
-			<id>4inch13Roller</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>origin</frame>
-		</vitamin>
-
-	</vitamins>
-	<passive>true</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</centerOfMassFromCentroid>
-	<imuFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</imuFromCentroid>
-
-	<DHParameters>
-		<Delta>0.0</Delta>
-		<Theta>0.0</Theta>
-		<Radius>0.0</Radius>
-		<Alpha>0.0</Alpha>
-	</DHParameters>
-
-</link>
-
-<ZframeToRAS
->
-	<x>-7.105427357601002E-15</x>
-	<y>100.0</y>
-	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
-
-</ZframeToRAS>
-
-<baseToZframe>
-
-	<x>-6.123263357034756</x>
-	<y>-50.42961080417332</y>
+	<x>39.603072485996485</x>
+	<y>-11.628511283432086</y>
 	<z>19.999999999999996</z>
-	<rotw>0.4688985284001781</rotw>
-	<rotx>0.468898528400178</rotx>
-	<roty>-0.5292770258231008</roty>
-	<rotz>-0.529277025823101</rotz>
-
-</baseToZframe>
-
-</drivable>
-<drivable>
-
-<name>uniqueName_roller_24</name>
-	<cadEngine>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleCad.groovy</file>
-	</cadEngine>
-	<kinematics>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleKinematics.groovy</file>
-	</kinematics>
-<link>
-	<name>uniqueName_roller_24</name>
-	<deviceName>rollers</deviceName>
-	<type>virtual</type>
-	<index>0</index>
-	<scale>1.0</scale>
-	<upperLimit>100000.0</upperLimit>
-	<lowerLimit>-100000.0</lowerLimit>
-	<upperVelocity>1200.0</upperVelocity>
-	<lowerVelocity>-1200.0</lowerVelocity>
-	<staticOffset>0.0</staticOffset>
-	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
-	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
-	<isLatch>false</isLatch>
-	<indexLatch>0.0</indexLatch>
-	<isStopOnLatch>false</isStopOnLatch>
-	<homingTPS>10000000</homingTPS>
-
-	<vitamins>
-
-		<vitamin>
-			<name>electroMechanical</name>
-			<type>steelPin</type>
-			<id>2x10mm</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>shaft</name>
-			<type>omniWheelRoller</type>
-			<id>4inch13Roller</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>origin</frame>
-		</vitamin>
-
-	</vitamins>
-	<passive>true</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</centerOfMassFromCentroid>
-	<imuFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</imuFromCentroid>
-
-	<DHParameters>
-		<Delta>0.0</Delta>
-		<Theta>0.0</Theta>
-		<Radius>0.0</Radius>
-		<Alpha>0.0</Alpha>
-	</DHParameters>
-
-</link>
-
-<ZframeToRAS
->
-	<x>-7.105427357601002E-15</x>
-	<y>100.0</y>
-	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
-
-</ZframeToRAS>
-
-<baseToZframe>
-
-	<x>18.01392826169385</x>
-	<y>-47.49882512844446</y>
-	<z>19.999999999999996</z>
-	<rotw>0.5819374723802416</rotw>
-	<rotx>0.5819374723802414</rotx>
-	<roty>-0.40168243456702907</roty>
-	<rotz>-0.4016824345670292</rotz>
-
-</baseToZframe>
-
-</drivable>
-<drivable>
-
-<name>uniqueName_roller_25</name>
-	<cadEngine>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleCad.groovy</file>
-	</cadEngine>
-	<kinematics>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleKinematics.groovy</file>
-	</kinematics>
-<link>
-	<name>uniqueName_roller_25</name>
-	<deviceName>rollers</deviceName>
-	<type>virtual</type>
-	<index>0</index>
-	<scale>1.0</scale>
-	<upperLimit>100000.0</upperLimit>
-	<lowerLimit>-100000.0</lowerLimit>
-	<upperVelocity>1200.0</upperVelocity>
-	<lowerVelocity>-1200.0</lowerVelocity>
-	<staticOffset>0.0</staticOffset>
-	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
-	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
-	<isLatch>false</isLatch>
-	<indexLatch>0.0</indexLatch>
-	<isStopOnLatch>false</isStopOnLatch>
-	<homingTPS>10000000</homingTPS>
-
-	<vitamins>
-
-		<vitamin>
-			<name>electroMechanical</name>
-			<type>steelPin</type>
-			<id>2x10mm</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>shaft</name>
-			<type>omniWheelRoller</type>
-			<id>4inch13Roller</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>origin</frame>
-		</vitamin>
-
-	</vitamins>
-	<passive>true</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</centerOfMassFromCentroid>
-	<imuFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</imuFromCentroid>
-
-	<DHParameters>
-		<Delta>0.0</Delta>
-		<Theta>0.0</Theta>
-		<Radius>0.0</Radius>
-		<Alpha>0.0</Alpha>
-	</DHParameters>
-
-</link>
-
-<ZframeToRAS
->
-	<x>-7.105427357601002E-15</x>
-	<y>100.0</y>
-	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
-
-</ZframeToRAS>
-
-<baseToZframe>
-
-	<x>38.024346007039924</x>
-	<y>-33.68663103869111</y>
-	<z>20.0</z>
-	<rotw>0.6611563257222299</rotw>
-	<rotx>0.6611563257222298</rotx>
-	<roty>-0.25074352027017704</roty>
-	<rotz>-0.2507435202701771</rotz>
-
-</baseToZframe>
-
-</drivable>
-<drivable>
-
-<name>uniqueName_roller_26</name>
-	<cadEngine>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleCad.groovy</file>
-	</cadEngine>
-	<kinematics>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleKinematics.groovy</file>
-	</kinematics>
-<link>
-	<name>uniqueName_roller_26</name>
-	<deviceName>rollers</deviceName>
-	<type>virtual</type>
-	<index>0</index>
-	<scale>1.0</scale>
-	<upperLimit>100000.0</upperLimit>
-	<lowerLimit>-100000.0</lowerLimit>
-	<upperVelocity>1200.0</upperVelocity>
-	<lowerVelocity>-1200.0</lowerVelocity>
-	<staticOffset>0.0</staticOffset>
-	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
-	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
-	<isLatch>false</isLatch>
-	<indexLatch>0.0</indexLatch>
-	<isStopOnLatch>false</isStopOnLatch>
-	<homingTPS>10000000</homingTPS>
-
-	<vitamins>
-
-		<vitamin>
-			<name>electroMechanical</name>
-			<type>steelPin</type>
-			<id>2x10mm</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>shaft</name>
-			<type>omniWheelRoller</type>
-			<id>4inch13Roller</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>origin</frame>
-		</vitamin>
-
-	</vitamins>
-	<passive>true</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</centerOfMassFromCentroid>
-	<imuFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</imuFromCentroid>
-
-	<DHParameters>
-		<Delta>0.0</Delta>
-		<Theta>0.0</Theta>
-		<Radius>0.0</Radius>
-		<Alpha>0.0</Alpha>
-	</DHParameters>
-
-</link>
-
-<ZframeToRAS
->
-	<x>-7.105427357601002E-15</x>
-	<y>100.0</y>
-	<z>0.0</z>
-	<rotw>0.657781923372256</rotw>
-	<rotx>-0.6577819233722559</rotx>
-	<roty>-0.2594666477308702</roty>
-	<rotz>-0.2594666477308704</rotz>
-
-</ZframeToRAS>
-
-<baseToZframe>
-
-	<x>49.32384432522306</x>
-	<y>-12.15723574589069</y>
-	<z>20.000000000000007</z>
-	<rotw>0.7019511766187252</rotw>
-	<rotx>0.7019511766187251</rotx>
-	<roty>-0.08523230399084239</roty>
-	<rotz>-0.0852323039908424</rotz>
+	<rotw>0.6999094537181052</rotw>
+	<rotx>0.699909453718105</rotx>
+	<roty>-0.10063178720475772</roty>
+	<rotz>-0.10063178720475774</rotz>
 
 </baseToZframe>
 
@@ -3221,7 +2745,7 @@
 
 <baseToZframe>
 
-	<x>-50.8</x>
+	<x>-41.275</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>

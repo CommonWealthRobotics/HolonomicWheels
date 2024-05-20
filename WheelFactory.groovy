@@ -12,8 +12,8 @@ import com.neuronrobotics.sdk.addons.kinematics.math.TransformNR
 import javafx.scene.transform.Affine
 if(args==null) {
 	args= new HashMap<String,Object>()
-	args.put("diameter",101.6)
-	args.put("numRollers",13)
+	args.put("diameter",69.85)
+	args.put("numRollers",9)
 	args.put("HubHeight",24)
 	args.put("rollerHeight", 12.5)
 	args.put("rollerDiameter",8)
@@ -21,13 +21,14 @@ if(args==null) {
 	args.put("electroMechanicalType","vexMotor")
 	args.put("electroMechanicalSize","v5_11w")
 	args.put("shaftType","vexWheels")
-	args.put("shaftSize","4InchOmni")
+	args.put("shaftSize","2_75InchOmni")
 	args.put("wheelName", "uniqueName")
 	MobileBase g = new MobileBase();
-	g.setGitSelfSource(["https://github.com/CommonWealthRobotics/HolonomicWheels.git","HolonomicExample.xml"]as String[])
+	g.setGitSelfSource(["https://github.com/CommonWealthRobotics/HolonomicWheels.git","2.75InchOmniExample.xml"]as String[])
 	g.setMassKg(0.001)
 	g.setScriptingName("OmniWheelGenerated")
-	
+	g.setGitWalkingEngine(["https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git","exampleWalking.groovy"]as String[])
+	g.setGitCadEngine(["https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git","exampleCad.groovy"]as String[])
 	args.put("base", g)
 }
 
@@ -37,6 +38,8 @@ for(String key:args.keySet()) {
 }
 
 MobileBase RollerBase = new MobileBase();
+RollerBase.setGitCadEngine(["https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git","exampleCad.groovy"]as String[])
+RollerBase.setGitWalkingEngine(["https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git","exampleWalking.groovy"]as String[])
 RollerBase.setMassKg(0.001)
 RollerBase.setScriptingName("RollerBase")
 RollerBase.setRobotToFiducialTransform(new TransformNR(-args.diameter/2,0,0))
@@ -46,6 +49,9 @@ for(double j=0;j<args.numberOfRows;j++)
 for(double i=0;i<args.numRollers;i++) {
 	totalRollers++;
 	DHParameterKinematics rollerLimb = new DHParameterKinematics();
+	rollerLimb.setGitCadEngine(["https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git","exampleCad.groovy"]as String[])
+    rollerLimb.setGitDhEngine(["https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git","exampleKinematics.groovy"]as String[])
+    
 	String _roller_TotalRollers = args.wheelName+"_roller_"+totalRollers
 	println "Adding Limb "+_roller_TotalRollers
 	rollerLimb.setScriptingName(_roller_TotalRollers)
@@ -57,7 +63,6 @@ for(double i=0;i<args.numRollers;i++) {
 				.times(new TransformNR(0,0,0,RotationNR.getRotationX(90)))
 	
 	rollerLimb.setRobotToFiducialTransform(rollerLocation)
-	RollerBase.getDrivable().add(rollerLimb);
 	
 	LinkConfiguration rollerConfig = new LinkConfiguration();
 	rollerConfig.setPassive(true)
@@ -87,10 +92,15 @@ for(double i=0;i<args.numRollers;i++) {
 
 // Create the limb for the wheel
 DHParameterKinematics wheelLimb = new DHParameterKinematics();
+wheelLimb.setGitCadEngine(["https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git","exampleCad.groovy"]as String[])
+wheelLimb.setGitDhEngine(["https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git","exampleKinematics.groovy"]as String[])
+wheelLimb.setScriptingName(args.wheelName)
+wheelLimb.setRobotToFiducialTransform(new TransformNR(0,100,0,new RotationNR(0,90,90)))
+
 generated.getDrivable().add(wheelLimb);
 
 LinkConfiguration wheelConfig = new LinkConfiguration();
-wheelConfig.setName(args.wheelName)
+wheelConfig.setName(args.wheelName+"_hub")
 VitaminLocation local = new VitaminLocation("electroMechanical",
 		args.electroMechanicalType.toString(),
 		args.electroMechanicalSize.toString(),
