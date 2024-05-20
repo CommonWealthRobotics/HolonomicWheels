@@ -1,3 +1,7 @@
+import static com.neuronrobotics.sdk.addons.kinematics.VitaminFrame.LinkOrigin
+import static com.neuronrobotics.sdk.addons.kinematics.VitaminFrame.previousLinkTip
+
+import com.neuronrobotics.sdk.addons.kinematics.AbstractLink
 import com.neuronrobotics.sdk.addons.kinematics.DHLink
 import com.neuronrobotics.sdk.addons.kinematics.DHParameterKinematics
 import com.neuronrobotics.sdk.addons.kinematics.LinkConfiguration
@@ -23,25 +27,37 @@ for(String key:args.keySet()) {
 	println "Key "+key+" value "+args.get(key)
 }
 
+MobileBase RollerBase = new MobileBase();
+RollerBase.setMassKg(0.001)
+RollerBase.setScriptingName("RollerBase")
 MobileBase generated = new MobileBase();
 generated.setMassKg(0.001)
-
+generated.setScriptingName("OmniWheelGenerated")
 // Create the limb for the wheel
 DHParameterKinematics wheelLimb = new DHParameterKinematics();
 generated.getDrivable().add(wheelLimb);
 
 LinkConfiguration wheelConfig = new LinkConfiguration();
-wheelConfig.addVitamin(new VitaminLocation("electroMechanical", 
-											args.electroMechanicalType.toString(),
-											args.electroMechanicalSize.toString(),
-											  new TransformNR()))
-wheelConfig.addVitamin(new VitaminLocation("shaft",
+
+VitaminLocation local = new VitaminLocation("electroMechanical",
+		args.electroMechanicalType.toString(),
+		args.electroMechanicalSize.toString(),
+		new TransformNR())
+VitaminLocation local2 = new VitaminLocation("shaft",
 	args.shaftType.toString(),
 	args.shaftSize.toString(),
-	  new TransformNR()))
-	  
-DHLink dh = new DHLink(args.diameter/2, 0, 0, 0);
-dh.setListener(new Affine());
-wheelLimb.addNewLink(wheelConfig, dh)
+	new TransformNR())
 
+wheelConfig.setUpperVelocity(1200)
+wheelConfig.setDeviceScriptingName("virtualDev")
+local.setFrame(previousLinkTip)
+local2.setFrame(LinkOrigin)
+wheelConfig.addVitamin(local)
+wheelConfig.addVitamin(local2)
+	  
+DHLink dh = new DHLink(0, 0, args.diameter/2, 0);
+dh.setListener(new Affine());
+dh.setSlaveMobileBase(RollerBase)
+
+wheelLimb.addNewLink(wheelConfig, dh)
 return generated
