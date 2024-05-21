@@ -109,6 +109,8 @@ VitaminLocation local2 = new VitaminLocation("shaft",
 	args.shaftType.toString(),
 	args.shaftSize.toString(),
 	new TransformNR())
+wheelConfig.setDeviceTheoreticalMax(Integer.MAX_VALUE-1)
+wheelConfig.setDeviceTheoreticalMin(-Integer.MAX_VALUE+1)
 
 wheelConfig.setUpperVelocity(1200)
 wheelConfig.setDeviceScriptingName("virtualDev")
