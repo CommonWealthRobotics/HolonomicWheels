@@ -18,4 +18,15 @@ args.put("shaftSize","2_75InchOmni")
 two = ScriptingEngine.gitScriptRun("https://github.com/CommonWealthRobotics/HolonomicWheels.git", "WheelFactory.groovy",[args])
 
 
-return null
+args.put("diameter",82.55)
+args.put("numRollers",11)
+args.put("shaftSize","3_75InchOmni")
+three = ScriptingEngine.gitScriptRun("https://github.com/CommonWealthRobotics/HolonomicWheels.git", "WheelFactory.groovy",[args])
+
+
+args.put("diameter",101.6)
+args.put("numRollers",13)
+args.put("shaftSize","4InchOmni")
+four = ScriptingEngine.gitScriptRun("https://github.com/CommonWealthRobotics/HolonomicWheels.git", "WheelFactory.groovy",[args])
+
+return four

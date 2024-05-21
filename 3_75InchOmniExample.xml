@@ -12,7 +12,7 @@
 <name>OmniWheelGenerated</name>
 <drivable>
 
-<name>uniqueName</name>
+<name>omniWheel</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -22,7 +22,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_hub</name>
+	<name>omniWheel_hub</name>
 	<deviceName>virtualDev</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -32,8 +32,8 @@
 	<upperVelocity>1200.0</upperVelocity>
 	<lowerVelocity>-1200.0</lowerVelocity>
 	<staticOffset>0.0</staticOffset>
-	<deviceTheoreticalMax>100000.0</deviceTheoreticalMax>
-	<deviceTheoreticalMin>-100000.0</deviceTheoreticalMin>
+	<deviceTheoreticalMax>2.147483646E9</deviceTheoreticalMax>
+	<deviceTheoreticalMin>-2.147483646E9</deviceTheoreticalMin>
 	<isLatch>false</isLatch>
 	<indexLatch>0.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
@@ -60,7 +60,7 @@
 		<vitamin>
 			<name>shaft</name>
 			<type>vexWheels</type>
-			<id>2_75InchOmni</id>
+			<id>3_75InchOmni</id>
 			<pose>
 	<x>0.0</x>
 	<y>0.0</y>
@@ -98,7 +98,7 @@
 	<DHParameters>
 		<Delta>0.0</Delta>
 		<Theta>0.0</Theta>
-		<Radius>34.925</Radius>
+		<Radius>41.275</Radius>
 		<Alpha>0.0</Alpha>
 
 		<mobilebase>
@@ -114,7 +114,7 @@
 <name>RollerBase</name>
 <drivable>
 
-<name>uniqueName_roller_1</name>
+<name>omniWheel_roller_1</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -124,7 +124,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_1</name>
+	<name>omniWheel_roller_1</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -209,18 +209,18 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>34.925</x>
+	<x>37.275</x>
 	<y>0.0</y>
 	<z>4.0</z>
 	<rotw>0.7071067811865476</rotw>
@@ -233,7 +233,7 @@
 </drivable>
 <drivable>
 
-<name>uniqueName_roller_2</name>
+<name>omniWheel_roller_2</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -243,7 +243,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_2</name>
+	<name>omniWheel_roller_2</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -328,507 +328,31 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>26.75410217593031</x>
-	<y>22.449357268302382</y>
-	<z>4.0</z>
-	<rotw>0.6644630243886748</rotw>
-	<rotx>0.6644630243886747</rotx>
-	<roty>0.24184476264797522</roty>
-	<rotz>0.24184476264797528</rotz>
-
-</baseToZframe>
-
-</drivable>
-<drivable>
-
-<name>uniqueName_roller_3</name>
-	<cadEngine>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleCad.groovy</file>
-	</cadEngine>
-	<kinematics>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleKinematics.groovy</file>
-	</kinematics>
-<link>
-	<name>uniqueName_roller_3</name>
-	<deviceName>rollers</deviceName>
-	<type>virtual</type>
-	<index>0</index>
-	<scale>1.0</scale>
-	<upperLimit>100000.0</upperLimit>
-	<lowerLimit>-100000.0</lowerLimit>
-	<upperVelocity>1200.0</upperVelocity>
-	<lowerVelocity>-1200.0</lowerVelocity>
-	<staticOffset>0.0</staticOffset>
-	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
-	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
-	<isLatch>false</isLatch>
-	<indexLatch>0.0</indexLatch>
-	<isStopOnLatch>false</isStopOnLatch>
-	<homingTPS>10000000</homingTPS>
-
-	<vitamins>
-
-		<vitamin>
-			<name>electroMechanical</name>
-			<type>steelPin</type>
-			<id>2x10mm</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>shaft</name>
-			<type>omniWheelRoller</type>
-			<id>4inch13Roller</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>origin</frame>
-		</vitamin>
-
-	</vitamins>
-	<passive>true</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</centerOfMassFromCentroid>
-	<imuFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</imuFromCentroid>
-
-	<DHParameters>
-		<Delta>0.0</Delta>
-		<Theta>0.0</Theta>
-		<Radius>0.0</Radius>
-		<Alpha>0.0</Alpha>
-	</DHParameters>
-
-</link>
-
-<ZframeToRAS
->
-	<x>0.0</x>
-	<y>100.0</y>
-	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
-
-</ZframeToRAS>
-
-<baseToZframe>
-
-	<x>6.064662605017548</x>
-	<y>34.394410773951364</y>
-	<z>4.0</z>
-	<rotw>0.541675220419702</rotw>
-	<rotx>0.5416752204197018</rotx>
-	<roty>0.4545194776720436</roty>
-	<rotz>0.4545194776720437</rotz>
-
-</baseToZframe>
-
-</drivable>
-<drivable>
-
-<name>uniqueName_roller_4</name>
-	<cadEngine>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleCad.groovy</file>
-	</cadEngine>
-	<kinematics>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleKinematics.groovy</file>
-	</kinematics>
-<link>
-	<name>uniqueName_roller_4</name>
-	<deviceName>rollers</deviceName>
-	<type>virtual</type>
-	<index>0</index>
-	<scale>1.0</scale>
-	<upperLimit>100000.0</upperLimit>
-	<lowerLimit>-100000.0</lowerLimit>
-	<upperVelocity>1200.0</upperVelocity>
-	<lowerVelocity>-1200.0</lowerVelocity>
-	<staticOffset>0.0</staticOffset>
-	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
-	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
-	<isLatch>false</isLatch>
-	<indexLatch>0.0</indexLatch>
-	<isStopOnLatch>false</isStopOnLatch>
-	<homingTPS>10000000</homingTPS>
-
-	<vitamins>
-
-		<vitamin>
-			<name>electroMechanical</name>
-			<type>steelPin</type>
-			<id>2x10mm</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>shaft</name>
-			<type>omniWheelRoller</type>
-			<id>4inch13Roller</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>origin</frame>
-		</vitamin>
-
-	</vitamins>
-	<passive>true</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</centerOfMassFromCentroid>
-	<imuFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</imuFromCentroid>
-
-	<DHParameters>
-		<Delta>0.0</Delta>
-		<Theta>0.0</Theta>
-		<Radius>0.0</Radius>
-		<Alpha>0.0</Alpha>
-	</DHParameters>
-
-</link>
-
-<ZframeToRAS
->
-	<x>0.0</x>
-	<y>100.0</y>
-	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
-
-</ZframeToRAS>
-
-<baseToZframe>
-
-	<x>-17.46249999999999</x>
-	<y>30.245937227171524</y>
-	<z>4.0</z>
-	<rotw>-0.3535533905932739</rotw>
-	<rotx>-0.3535533905932738</rotx>
-	<roty>-0.6123724356957945</roty>
-	<rotz>-0.6123724356957945</rotz>
-
-</baseToZframe>
-
-</drivable>
-<drivable>
-
-<name>uniqueName_roller_5</name>
-	<cadEngine>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleCad.groovy</file>
-	</cadEngine>
-	<kinematics>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleKinematics.groovy</file>
-	</kinematics>
-<link>
-	<name>uniqueName_roller_5</name>
-	<deviceName>rollers</deviceName>
-	<type>virtual</type>
-	<index>0</index>
-	<scale>1.0</scale>
-	<upperLimit>100000.0</upperLimit>
-	<lowerLimit>-100000.0</lowerLimit>
-	<upperVelocity>1200.0</upperVelocity>
-	<lowerVelocity>-1200.0</lowerVelocity>
-	<staticOffset>0.0</staticOffset>
-	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
-	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
-	<isLatch>false</isLatch>
-	<indexLatch>0.0</indexLatch>
-	<isStopOnLatch>false</isStopOnLatch>
-	<homingTPS>10000000</homingTPS>
-
-	<vitamins>
-
-		<vitamin>
-			<name>electroMechanical</name>
-			<type>steelPin</type>
-			<id>2x10mm</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>shaft</name>
-			<type>omniWheelRoller</type>
-			<id>4inch13Roller</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>origin</frame>
-		</vitamin>
-
-	</vitamins>
-	<passive>true</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</centerOfMassFromCentroid>
-	<imuFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</imuFromCentroid>
-
-	<DHParameters>
-		<Delta>0.0</Delta>
-		<Theta>0.0</Theta>
-		<Radius>0.0</Radius>
-		<Alpha>0.0</Alpha>
-	</DHParameters>
-
-</link>
-
-<ZframeToRAS
->
-	<x>0.0</x>
-	<y>100.0</y>
-	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
-
-</ZframeToRAS>
-
-<baseToZframe>
-
-	<x>-32.818764780947845</x>
-	<y>11.945053505648985</y>
-	<z>4.0</z>
-	<rotw>-0.1227878039689729</rotw>
-	<rotx>-0.12278780396897289</rotx>
-	<roty>-0.6963642403200189</roty>
-	<rotz>-0.696364240320019</rotz>
-
-</baseToZframe>
-
-</drivable>
-<drivable>
-
-<name>uniqueName_roller_6</name>
-	<cadEngine>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleCad.groovy</file>
-	</cadEngine>
-	<kinematics>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleKinematics.groovy</file>
-	</kinematics>
-<link>
-	<name>uniqueName_roller_6</name>
-	<deviceName>rollers</deviceName>
-	<type>virtual</type>
-	<index>0</index>
-	<scale>1.0</scale>
-	<upperLimit>100000.0</upperLimit>
-	<lowerLimit>-100000.0</lowerLimit>
-	<upperVelocity>1200.0</upperVelocity>
-	<lowerVelocity>-1200.0</lowerVelocity>
-	<staticOffset>0.0</staticOffset>
-	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
-	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
-	<isLatch>false</isLatch>
-	<indexLatch>0.0</indexLatch>
-	<isStopOnLatch>false</isStopOnLatch>
-	<homingTPS>10000000</homingTPS>
-
-	<vitamins>
-
-		<vitamin>
-			<name>electroMechanical</name>
-			<type>steelPin</type>
-			<id>2x10mm</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>shaft</name>
-			<type>omniWheelRoller</type>
-			<id>4inch13Roller</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>origin</frame>
-		</vitamin>
-
-	</vitamins>
-	<passive>true</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</centerOfMassFromCentroid>
-	<imuFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</imuFromCentroid>
-
-	<DHParameters>
-		<Delta>0.0</Delta>
-		<Theta>0.0</Theta>
-		<Radius>0.0</Radius>
-		<Alpha>0.0</Alpha>
-	</DHParameters>
-
-</link>
-
-<ZframeToRAS
->
-	<x>0.0</x>
-	<y>100.0</y>
-	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
-
-</ZframeToRAS>
-
-<baseToZframe>
-
-	<x>-32.81876478094785</x>
-	<y>-11.945053505648977</y>
+	<x>31.357725436272677</x>
+	<y>20.15238647067233</y>
 	<z>3.999999999999999</z>
-	<rotw>0.12278780396897283</rotw>
-	<rotx>0.1227878039689728</rotx>
-	<roty>-0.6963642403200189</roty>
-	<rotz>-0.696364240320019</rotz>
+	<rotw>0.6784639881436089</rotw>
+	<rotx>0.6784639881436086</rotx>
+	<roty>0.19921500142376095</roty>
+	<rotz>0.199215001423761</rotz>
 
 </baseToZframe>
 
 </drivable>
 <drivable>
 
-<name>uniqueName_roller_7</name>
+<name>omniWheel_roller_3</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -838,7 +362,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_7</name>
+	<name>omniWheel_roller_3</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -923,31 +447,31 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-17.462500000000013</x>
-	<y>-30.245937227171513</y>
+	<x>15.48459460961304</x>
+	<y>33.90653262685441</y>
 	<z>4.0</z>
-	<rotw>0.35355339059327373</rotw>
-	<rotx>0.3535533905932737</rotx>
-	<roty>-0.6123724356957945</roty>
-	<rotz>-0.6123724356957948</rotz>
+	<rotw>0.5948560777618862</rotw>
+	<rotx>0.5948560777618861</rotx>
+	<roty>0.3822907882093745</roty>
+	<rotz>0.38229078820937457</rotz>
 
 </baseToZframe>
 
 </drivable>
 <drivable>
 
-<name>uniqueName_roller_8</name>
+<name>omniWheel_roller_4</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -957,7 +481,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_8</name>
+	<name>omniWheel_roller_4</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -1042,31 +566,31 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>6.064662605017525</x>
-	<y>-34.394410773951364</y>
+	<x>-5.304785596689373</x>
+	<y>36.8955942461042</y>
 	<z>4.0</z>
-	<rotw>0.5416752204197018</rotw>
-	<rotx>0.5416752204197016</rotx>
-	<roty>-0.4545194776720437</roty>
-	<rotz>-0.4545194776720438</rotz>
+	<rotw>0.4630564657051292</rotw>
+	<rotx>0.4630564657051291</rotx>
+	<roty>0.5343956489050734</roty>
+	<rotz>0.5343956489050735</rotz>
 
 </baseToZframe>
 
 </drivable>
 <drivable>
 
-<name>uniqueName_roller_9</name>
+<name>omniWheel_roller_5</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -1076,7 +600,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_9</name>
+	<name>omniWheel_roller_5</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -1161,31 +685,31 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>26.754102175930292</x>
-	<y>-22.449357268302396</y>
+	<x>-24.409933857864125</x>
+	<y>28.170565384008512</y>
 	<z>4.0</z>
-	<rotw>0.6644630243886747</rotw>
-	<rotx>0.6644630243886747</rotx>
-	<roty>-0.24184476264797547</roty>
-	<rotz>-0.24184476264797553</rotz>
+	<rotw>-0.2937427726997196</rotw>
+	<rotx>-0.2937427726997195</rotx>
+	<roty>-0.6432069522997095</roty>
+	<rotz>-0.6432069522997097</rotz>
 
 </baseToZframe>
 
 </drivable>
 <drivable>
 
-<name>uniqueName_roller_10</name>
+<name>omniWheel_roller_6</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -1195,7 +719,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_10</name>
+	<name>omniWheel_roller_6</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -1280,31 +804,31 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>32.818764780947845</x>
-	<y>11.945053505648978</y>
-	<z>19.999999999999996</z>
-	<rotw>0.696364240320019</rotw>
-	<rotx>0.6963642403200189</rotx>
-	<roty>0.12278780396897285</roty>
-	<rotz>0.12278780396897286</rotz>
+	<x>-35.76510059150538</x>
+	<y>10.501581056179175</y>
+	<z>4.0</z>
+	<rotw>-0.10063178720567391</rotw>
+	<rotx>-0.10063178720567388</rotx>
+	<roty>-0.6999094537179733</roty>
+	<rotz>-0.6999094537179735</rotz>
 
 </baseToZframe>
 
 </drivable>
 <drivable>
 
-<name>uniqueName_roller_11</name>
+<name>omniWheel_roller_7</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -1314,7 +838,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_11</name>
+	<name>omniWheel_roller_7</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -1399,31 +923,31 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>17.46249999999999</x>
-	<y>30.245937227171517</y>
-	<z>19.999999999999996</z>
-	<rotw>0.6123724356957945</rotw>
-	<rotx>0.6123724356957945</rotx>
-	<roty>0.3535533905932739</roty>
-	<rotz>0.35355339059327395</rotz>
+	<x>-35.765100591450405</x>
+	<y>-10.501581056366408</y>
+	<z>4.000000000000002</z>
+	<rotw>0.10063178720750594</rotw>
+	<rotx>0.10063178720750593</rotx>
+	<roty>-0.69990945371771</roty>
+	<rotz>-0.6999094537177101</rotz>
 
 </baseToZframe>
 
 </drivable>
 <drivable>
 
-<name>uniqueName_roller_12</name>
+<name>omniWheel_roller_8</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -1433,7 +957,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_12</name>
+	<name>omniWheel_roller_8</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -1518,31 +1042,507 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-6.06466260501754</x>
-	<y>34.39441077395137</y>
+	<x>-24.409933857716656</x>
+	<y>-28.170565384136296</y>
+	<z>4.0</z>
+	<rotw>0.2937427727014031</rotw>
+	<rotx>0.29374277270140303</rotx>
+	<roty>-0.6432069522989408</roty>
+	<rotz>-0.6432069522989409</rotz>
+
+</baseToZframe>
+
+</drivable>
+<drivable>
+
+<name>omniWheel_roller_9</name>
+	<cadEngine>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleCad.groovy</file>
+	</cadEngine>
+	<kinematics>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleKinematics.groovy</file>
+	</kinematics>
+<link>
+	<name>omniWheel_roller_9</name>
+	<deviceName>rollers</deviceName>
+	<type>virtual</type>
+	<index>0</index>
+	<scale>1.0</scale>
+	<upperLimit>100000.0</upperLimit>
+	<lowerLimit>-100000.0</lowerLimit>
+	<upperVelocity>1200.0</upperVelocity>
+	<lowerVelocity>-1200.0</lowerVelocity>
+	<staticOffset>0.0</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
+	<isLatch>false</isLatch>
+	<indexLatch>0.0</indexLatch>
+	<isStopOnLatch>false</isStopOnLatch>
+	<homingTPS>10000000</homingTPS>
+
+	<vitamins>
+
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>steelPin</type>
+			<id>2x10mm</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>shaft</name>
+			<type>omniWheelRoller</type>
+			<id>4inch13Roller</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>origin</frame>
+		</vitamin>
+
+	</vitamins>
+	<passive>true</passive>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</centerOfMassFromCentroid>
+	<imuFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</imuFromCentroid>
+
+	<DHParameters>
+		<Delta>0.0</Delta>
+		<Theta>0.0</Theta>
+		<Radius>0.0</Radius>
+		<Alpha>0.0</Alpha>
+	</DHParameters>
+
+</link>
+
+<ZframeToRAS
+>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+
+</ZframeToRAS>
+
+<baseToZframe>
+
+	<x>-5.304785596496219</x>
+	<y>-36.89559424613196</y>
+	<z>3.999999999999999</z>
+	<rotw>0.46305646570652803</rotw>
+	<rotx>0.4630564657065279</rotx>
+	<roty>-0.5343956489038613</roty>
+	<rotz>-0.5343956489038614</rotz>
+
+</baseToZframe>
+
+</drivable>
+<drivable>
+
+<name>omniWheel_roller_10</name>
+	<cadEngine>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleCad.groovy</file>
+	</cadEngine>
+	<kinematics>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleKinematics.groovy</file>
+	</kinematics>
+<link>
+	<name>omniWheel_roller_10</name>
+	<deviceName>rollers</deviceName>
+	<type>virtual</type>
+	<index>0</index>
+	<scale>1.0</scale>
+	<upperLimit>100000.0</upperLimit>
+	<lowerLimit>-100000.0</lowerLimit>
+	<upperVelocity>1200.0</upperVelocity>
+	<lowerVelocity>-1200.0</lowerVelocity>
+	<staticOffset>0.0</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
+	<isLatch>false</isLatch>
+	<indexLatch>0.0</indexLatch>
+	<isStopOnLatch>false</isStopOnLatch>
+	<homingTPS>10000000</homingTPS>
+
+	<vitamins>
+
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>steelPin</type>
+			<id>2x10mm</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>shaft</name>
+			<type>omniWheelRoller</type>
+			<id>4inch13Roller</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>origin</frame>
+		</vitamin>
+
+	</vitamins>
+	<passive>true</passive>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</centerOfMassFromCentroid>
+	<imuFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</imuFromCentroid>
+
+	<DHParameters>
+		<Delta>0.0</Delta>
+		<Theta>0.0</Theta>
+		<Radius>0.0</Radius>
+		<Alpha>0.0</Alpha>
+	</DHParameters>
+
+</link>
+
+<ZframeToRAS
+>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+
+</ZframeToRAS>
+
+<baseToZframe>
+
+	<x>15.484594609790536</x>
+	<y>-33.90653262677335</y>
+	<z>4.0</z>
+	<rotw>0.5948560777628868</rotw>
+	<rotx>0.5948560777628867</rotx>
+	<roty>-0.38229078820781753</roty>
+	<rotz>-0.3822907882078176</rotz>
+
+</baseToZframe>
+
+</drivable>
+<drivable>
+
+<name>omniWheel_roller_11</name>
+	<cadEngine>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleCad.groovy</file>
+	</cadEngine>
+	<kinematics>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleKinematics.groovy</file>
+	</kinematics>
+<link>
+	<name>omniWheel_roller_11</name>
+	<deviceName>rollers</deviceName>
+	<type>virtual</type>
+	<index>0</index>
+	<scale>1.0</scale>
+	<upperLimit>100000.0</upperLimit>
+	<lowerLimit>-100000.0</lowerLimit>
+	<upperVelocity>1200.0</upperVelocity>
+	<lowerVelocity>-1200.0</lowerVelocity>
+	<staticOffset>0.0</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
+	<isLatch>false</isLatch>
+	<indexLatch>0.0</indexLatch>
+	<isStopOnLatch>false</isStopOnLatch>
+	<homingTPS>10000000</homingTPS>
+
+	<vitamins>
+
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>steelPin</type>
+			<id>2x10mm</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>shaft</name>
+			<type>omniWheelRoller</type>
+			<id>4inch13Roller</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>origin</frame>
+		</vitamin>
+
+	</vitamins>
+	<passive>true</passive>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</centerOfMassFromCentroid>
+	<imuFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</imuFromCentroid>
+
+	<DHParameters>
+		<Delta>0.0</Delta>
+		<Theta>0.0</Theta>
+		<Radius>0.0</Radius>
+		<Alpha>0.0</Alpha>
+	</DHParameters>
+
+</link>
+
+<ZframeToRAS
+>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+
+</ZframeToRAS>
+
+<baseToZframe>
+
+	<x>31.35772543637819</x>
+	<y>-20.152386470508144</y>
+	<z>3.999999999999999</z>
+	<rotw>0.6784639881441303</rotw>
+	<rotx>0.6784639881441302</rotx>
+	<roty>-0.19921500142198484</roty>
+	<rotz>-0.19921500142198487</rotz>
+
+</baseToZframe>
+
+</drivable>
+<drivable>
+
+<name>omniWheel_roller_12</name>
+	<cadEngine>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleCad.groovy</file>
+	</cadEngine>
+	<kinematics>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleKinematics.groovy</file>
+	</kinematics>
+<link>
+	<name>omniWheel_roller_12</name>
+	<deviceName>rollers</deviceName>
+	<type>virtual</type>
+	<index>0</index>
+	<scale>1.0</scale>
+	<upperLimit>100000.0</upperLimit>
+	<lowerLimit>-100000.0</lowerLimit>
+	<upperVelocity>1200.0</upperVelocity>
+	<lowerVelocity>-1200.0</lowerVelocity>
+	<staticOffset>0.0</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
+	<isLatch>false</isLatch>
+	<indexLatch>0.0</indexLatch>
+	<isStopOnLatch>false</isStopOnLatch>
+	<homingTPS>10000000</homingTPS>
+
+	<vitamins>
+
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>steelPin</type>
+			<id>2x10mm</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>shaft</name>
+			<type>omniWheelRoller</type>
+			<id>4inch13Roller</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>origin</frame>
+		</vitamin>
+
+	</vitamins>
+	<passive>true</passive>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</centerOfMassFromCentroid>
+	<imuFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</imuFromCentroid>
+
+	<DHParameters>
+		<Delta>0.0</Delta>
+		<Theta>0.0</Theta>
+		<Radius>0.0</Radius>
+		<Alpha>0.0</Alpha>
+	</DHParameters>
+
+</link>
+
+<ZframeToRAS
+>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+
+</ZframeToRAS>
+
+<baseToZframe>
+
+	<x>35.76510059147789</x>
+	<y>10.501581056272805</y>
 	<z>20.0</z>
-	<rotw>0.45451947767204376</rotw>
-	<rotx>0.4545194776720436</rotx>
-	<roty>0.5416752204197017</roty>
-	<rotz>0.5416752204197018</rotz>
+	<rotw>0.6999094537178417</rotw>
+	<rotx>0.6999094537178416</rotx>
+	<roty>0.10063178720659004</roty>
+	<rotz>0.10063178720659005</rotz>
 
 </baseToZframe>
 
 </drivable>
 <drivable>
 
-<name>uniqueName_roller_13</name>
+<name>omniWheel_roller_13</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -1552,7 +1552,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_13</name>
+	<name>omniWheel_roller_13</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -1637,141 +1637,498 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-26.754102175930303</x>
-	<y>22.449357268302393</y>
-	<z>19.999999999999996</z>
-	<rotw>-0.24184476264797547</rotw>
-	<rotx>-0.24184476264797541</rotx>
-	<roty>-0.6644630243886746</roty>
-	<rotz>-0.6644630243886748</rotz>
-
-</baseToZframe>
-
-</drivable>
-<drivable>
-
-<name>uniqueName_roller_14</name>
-	<cadEngine>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleCad.groovy</file>
-	</cadEngine>
-	<kinematics>
-		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
-		<file>exampleKinematics.groovy</file>
-	</kinematics>
-<link>
-	<name>uniqueName_roller_14</name>
-	<deviceName>rollers</deviceName>
-	<type>virtual</type>
-	<index>0</index>
-	<scale>1.0</scale>
-	<upperLimit>100000.0</upperLimit>
-	<lowerLimit>-100000.0</lowerLimit>
-	<upperVelocity>1200.0</upperVelocity>
-	<lowerVelocity>-1200.0</lowerVelocity>
-	<staticOffset>0.0</staticOffset>
-	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
-	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
-	<isLatch>false</isLatch>
-	<indexLatch>0.0</indexLatch>
-	<isStopOnLatch>false</isStopOnLatch>
-	<homingTPS>10000000</homingTPS>
-
-	<vitamins>
-
-		<vitamin>
-			<name>electroMechanical</name>
-			<type>steelPin</type>
-			<id>2x10mm</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>shaft</name>
-			<type>omniWheelRoller</type>
-			<id>4inch13Roller</id>
-			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-			</pose>
-			<frame>origin</frame>
-		</vitamin>
-
-	</vitamins>
-	<passive>true</passive>
-	<mass>0.01</mass>
-	<centerOfMassFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</centerOfMassFromCentroid>
-	<imuFromCentroid>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
-</imuFromCentroid>
-
-	<DHParameters>
-		<Delta>0.0</Delta>
-		<Theta>0.0</Theta>
-		<Radius>0.0</Radius>
-		<Alpha>0.0</Alpha>
-	</DHParameters>
-
-</link>
-
-<ZframeToRAS
->
-	<x>0.0</x>
-	<y>100.0</y>
-	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
-
-</ZframeToRAS>
-
-<baseToZframe>
-
-	<x>-34.925</x>
-	<y>4.277078946022131E-15</y>
+	<x>24.409933857790392</x>
+	<y>28.170565384072404</y>
 	<z>20.0</z>
-	<rotw>-4.329780281177467E-17</rotw>
-	<rotx>-4.329780281177466E-17</rotx>
+	<rotw>0.6432069522993253</rotw>
+	<rotx>0.6432069522993251</rotx>
+	<roty>0.2937427727005612</roty>
+	<rotz>0.2937427727005613</rotz>
+
+</baseToZframe>
+
+</drivable>
+<drivable>
+
+<name>omniWheel_roller_14</name>
+	<cadEngine>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleCad.groovy</file>
+	</cadEngine>
+	<kinematics>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleKinematics.groovy</file>
+	</kinematics>
+<link>
+	<name>omniWheel_roller_14</name>
+	<deviceName>rollers</deviceName>
+	<type>virtual</type>
+	<index>0</index>
+	<scale>1.0</scale>
+	<upperLimit>100000.0</upperLimit>
+	<lowerLimit>-100000.0</lowerLimit>
+	<upperVelocity>1200.0</upperVelocity>
+	<lowerVelocity>-1200.0</lowerVelocity>
+	<staticOffset>0.0</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
+	<isLatch>false</isLatch>
+	<indexLatch>0.0</indexLatch>
+	<isStopOnLatch>false</isStopOnLatch>
+	<homingTPS>10000000</homingTPS>
+
+	<vitamins>
+
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>steelPin</type>
+			<id>2x10mm</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>shaft</name>
+			<type>omniWheelRoller</type>
+			<id>4inch13Roller</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>origin</frame>
+		</vitamin>
+
+	</vitamins>
+	<passive>true</passive>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</centerOfMassFromCentroid>
+	<imuFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</imuFromCentroid>
+
+	<DHParameters>
+		<Delta>0.0</Delta>
+		<Theta>0.0</Theta>
+		<Radius>0.0</Radius>
+		<Alpha>0.0</Alpha>
+	</DHParameters>
+
+</link>
+
+<ZframeToRAS
+>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+
+</ZframeToRAS>
+
+<baseToZframe>
+
+	<x>5.304785596592801</x>
+	<y>36.89559424611809</y>
+	<z>20.0</z>
+	<rotw>0.5343956489044674</rotw>
+	<rotx>0.5343956489044674</rotx>
+	<roty>0.46305646570582853</roty>
+	<rotz>0.46305646570582865</rotz>
+
+</baseToZframe>
+
+</drivable>
+<drivable>
+
+<name>omniWheel_roller_15</name>
+	<cadEngine>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleCad.groovy</file>
+	</cadEngine>
+	<kinematics>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleKinematics.groovy</file>
+	</kinematics>
+<link>
+	<name>omniWheel_roller_15</name>
+	<deviceName>rollers</deviceName>
+	<type>virtual</type>
+	<index>0</index>
+	<scale>1.0</scale>
+	<upperLimit>100000.0</upperLimit>
+	<lowerLimit>-100000.0</lowerLimit>
+	<upperVelocity>1200.0</upperVelocity>
+	<lowerVelocity>-1200.0</lowerVelocity>
+	<staticOffset>0.0</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
+	<isLatch>false</isLatch>
+	<indexLatch>0.0</indexLatch>
+	<isStopOnLatch>false</isStopOnLatch>
+	<homingTPS>10000000</homingTPS>
+
+	<vitamins>
+
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>steelPin</type>
+			<id>2x10mm</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>shaft</name>
+			<type>omniWheelRoller</type>
+			<id>4inch13Roller</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>origin</frame>
+		</vitamin>
+
+	</vitamins>
+	<passive>true</passive>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</centerOfMassFromCentroid>
+	<imuFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</imuFromCentroid>
+
+	<DHParameters>
+		<Delta>0.0</Delta>
+		<Theta>0.0</Theta>
+		<Radius>0.0</Radius>
+		<Alpha>0.0</Alpha>
+	</DHParameters>
+
+</link>
+
+<ZframeToRAS
+>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+
+</ZframeToRAS>
+
+<baseToZframe>
+
+	<x>-15.484594609701789</x>
+	<y>33.90653262681388</y>
+	<z>20.0</z>
+	<rotw>-0.38229078820859613</rotw>
+	<rotx>-0.3822907882085961</rotx>
+	<roty>-0.5948560777623864</roty>
+	<rotz>-0.5948560777623866</rotz>
+
+</baseToZframe>
+
+</drivable>
+<drivable>
+
+<name>omniWheel_roller_16</name>
+	<cadEngine>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleCad.groovy</file>
+	</cadEngine>
+	<kinematics>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleKinematics.groovy</file>
+	</kinematics>
+<link>
+	<name>omniWheel_roller_16</name>
+	<deviceName>rollers</deviceName>
+	<type>virtual</type>
+	<index>0</index>
+	<scale>1.0</scale>
+	<upperLimit>100000.0</upperLimit>
+	<lowerLimit>-100000.0</lowerLimit>
+	<upperVelocity>1200.0</upperVelocity>
+	<lowerVelocity>-1200.0</lowerVelocity>
+	<staticOffset>0.0</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
+	<isLatch>false</isLatch>
+	<indexLatch>0.0</indexLatch>
+	<isStopOnLatch>false</isStopOnLatch>
+	<homingTPS>10000000</homingTPS>
+
+	<vitamins>
+
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>steelPin</type>
+			<id>2x10mm</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>shaft</name>
+			<type>omniWheelRoller</type>
+			<id>4inch13Roller</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>origin</frame>
+		</vitamin>
+
+	</vitamins>
+	<passive>true</passive>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</centerOfMassFromCentroid>
+	<imuFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</imuFromCentroid>
+
+	<DHParameters>
+		<Delta>0.0</Delta>
+		<Theta>0.0</Theta>
+		<Radius>0.0</Radius>
+		<Alpha>0.0</Alpha>
+	</DHParameters>
+
+</link>
+
+<ZframeToRAS
+>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+
+</ZframeToRAS>
+
+<baseToZframe>
+
+	<x>-31.35772543632544</x>
+	<y>20.15238647059024</y>
+	<z>20.0</z>
+	<rotw>-0.19921500142287288</rotw>
+	<rotx>-0.19921500142287282</rotx>
+	<roty>-0.6784639881438695</roty>
+	<rotz>-0.6784639881438695</rotz>
+
+</baseToZframe>
+
+</drivable>
+<drivable>
+
+<name>omniWheel_roller_17</name>
+	<cadEngine>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleCad.groovy</file>
+	</cadEngine>
+	<kinematics>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleKinematics.groovy</file>
+	</kinematics>
+<link>
+	<name>omniWheel_roller_17</name>
+	<deviceName>rollers</deviceName>
+	<type>virtual</type>
+	<index>0</index>
+	<scale>1.0</scale>
+	<upperLimit>100000.0</upperLimit>
+	<lowerLimit>-100000.0</lowerLimit>
+	<upperVelocity>1200.0</upperVelocity>
+	<lowerVelocity>-1200.0</lowerVelocity>
+	<staticOffset>0.0</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
+	<isLatch>false</isLatch>
+	<indexLatch>0.0</indexLatch>
+	<isStopOnLatch>false</isStopOnLatch>
+	<homingTPS>10000000</homingTPS>
+
+	<vitamins>
+
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>steelPin</type>
+			<id>2x10mm</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>shaft</name>
+			<type>omniWheelRoller</type>
+			<id>4inch13Roller</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>origin</frame>
+		</vitamin>
+
+	</vitamins>
+	<passive>true</passive>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</centerOfMassFromCentroid>
+	<imuFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</imuFromCentroid>
+
+	<DHParameters>
+		<Delta>0.0</Delta>
+		<Theta>0.0</Theta>
+		<Radius>0.0</Radius>
+		<Alpha>0.0</Alpha>
+	</DHParameters>
+
+</link>
+
+<ZframeToRAS
+>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+
+</ZframeToRAS>
+
+<baseToZframe>
+
+	<x>-37.275</x>
+	<y>-9.757787725582077E-11</y>
+	<z>20.0</z>
+	<rotw>9.255262065912738E-13</rotw>
+	<rotx>9.255262065912736E-13</rotx>
 	<roty>-0.7071067811865475</roty>
 	<rotz>-0.7071067811865476</rotz>
 
@@ -1780,7 +2137,7 @@
 </drivable>
 <drivable>
 
-<name>uniqueName_roller_15</name>
+<name>omniWheel_roller_18</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -1790,7 +2147,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_15</name>
+	<name>omniWheel_roller_18</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -1875,31 +2232,31 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-26.75410217593031</x>
-	<y>-22.449357268302382</y>
+	<x>-31.357725436219948</x>
+	<y>-20.15238647075439</y>
 	<z>20.0</z>
-	<rotw>0.24184476264797525</rotw>
-	<rotx>0.24184476264797522</rotx>
-	<roty>-0.6644630243886747</roty>
-	<rotz>-0.6644630243886748</rotz>
+	<rotw>0.19921500142464865</rotw>
+	<rotx>0.19921500142464862</rotx>
+	<roty>-0.6784639881433481</roty>
+	<rotz>-0.6784639881433482</rotz>
 
 </baseToZframe>
 
 </drivable>
 <drivable>
 
-<name>uniqueName_roller_16</name>
+<name>omniWheel_roller_19</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -1909,7 +2266,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_16</name>
+	<name>omniWheel_roller_19</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -1994,31 +2351,31 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>-6.06466260501754</x>
-	<y>-34.39441077395137</y>
+	<x>-15.484594609524287</x>
+	<y>-33.90653262689494</y>
 	<z>20.0</z>
-	<rotw>0.45451947767204376</rotw>
-	<rotx>0.4545194776720436</rotx>
-	<roty>-0.5416752204197017</roty>
-	<rotz>-0.5416752204197018</rotz>
+	<rotw>0.38229078821015317</rotw>
+	<rotx>0.38229078821015305</rotx>
+	<roty>-0.5948560777613857</roty>
+	<rotz>-0.5948560777613858</rotz>
 
 </baseToZframe>
 
 </drivable>
 <drivable>
 
-<name>uniqueName_roller_17</name>
+<name>omniWheel_roller_20</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -2028,7 +2385,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_17</name>
+	<name>omniWheel_roller_20</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -2113,31 +2470,31 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>17.46249999999999</x>
-	<y>-30.245937227171517</y>
+	<x>5.304785596785963</x>
+	<y>-36.895594246090305</y>
 	<z>19.999999999999996</z>
-	<rotw>0.6123724356957945</rotw>
-	<rotx>0.6123724356957945</rotx>
-	<roty>-0.3535533905932739</roty>
-	<rotz>-0.35355339059327395</rotz>
+	<rotw>0.5343956489056796</rotw>
+	<rotx>0.5343956489056796</rotx>
+	<roty>-0.46305646570442965</roty>
+	<rotz>-0.46305646570442976</rotz>
 
 </baseToZframe>
 
 </drivable>
 <drivable>
 
-<name>uniqueName_roller_18</name>
+<name>omniWheel_roller_21</name>
 	<cadEngine>
 		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
 		<file>exampleCad.groovy</file>
@@ -2147,7 +2504,7 @@
 		<file>exampleKinematics.groovy</file>
 	</kinematics>
 <link>
-	<name>uniqueName_roller_18</name>
+	<name>omniWheel_roller_21</name>
 	<deviceName>rollers</deviceName>
 	<type>virtual</type>
 	<index>0</index>
@@ -2232,24 +2589,143 @@
 <ZframeToRAS
 >
 	<x>0.0</x>
-	<y>100.0</y>
+	<y>0.0</y>
 	<z>0.0</z>
-	<rotw>0.5000000000000001</rotw>
-	<rotx>-0.4999999999999999</rotx>
-	<roty>0.5</roty>
-	<rotz>0.5</rotz>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
 
 </ZframeToRAS>
 
 <baseToZframe>
 
-	<x>32.818764780947845</x>
-	<y>-11.945053505648977</y>
+	<x>24.40993385793787</x>
+	<y>-28.170565383944613</y>
+	<z>20.0</z>
+	<rotw>0.6432069523000942</rotw>
+	<rotx>0.6432069523000941</rotx>
+	<roty>-0.2937427726988776</roty>
+	<rotz>-0.2937427726988777</rotz>
+
+</baseToZframe>
+
+</drivable>
+<drivable>
+
+<name>omniWheel_roller_22</name>
+	<cadEngine>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleCad.groovy</file>
+	</cadEngine>
+	<kinematics>
+		<git>https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git</git>
+		<file>exampleKinematics.groovy</file>
+	</kinematics>
+<link>
+	<name>omniWheel_roller_22</name>
+	<deviceName>rollers</deviceName>
+	<type>virtual</type>
+	<index>0</index>
+	<scale>1.0</scale>
+	<upperLimit>100000.0</upperLimit>
+	<lowerLimit>-100000.0</lowerLimit>
+	<upperVelocity>1200.0</upperVelocity>
+	<lowerVelocity>-1200.0</lowerVelocity>
+	<staticOffset>0.0</staticOffset>
+	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
+	<isLatch>false</isLatch>
+	<indexLatch>0.0</indexLatch>
+	<isStopOnLatch>false</isStopOnLatch>
+	<homingTPS>10000000</homingTPS>
+
+	<vitamins>
+
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>steelPin</type>
+			<id>2x10mm</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>shaft</name>
+			<type>omniWheelRoller</type>
+			<id>4inch13Roller</id>
+			<pose>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>origin</frame>
+		</vitamin>
+
+	</vitamins>
+	<passive>true</passive>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</centerOfMassFromCentroid>
+	<imuFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</imuFromCentroid>
+
+	<DHParameters>
+		<Delta>0.0</Delta>
+		<Theta>0.0</Theta>
+		<Radius>0.0</Radius>
+		<Alpha>0.0</Alpha>
+	</DHParameters>
+
+</link>
+
+<ZframeToRAS
+>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+
+</ZframeToRAS>
+
+<baseToZframe>
+
+	<x>35.765100591532864</x>
+	<y>-10.501581056085548</y>
 	<z>19.999999999999996</z>
-	<rotw>0.696364240320019</rotw>
-	<rotx>0.6963642403200189</rotx>
-	<roty>-0.12278780396897285</roty>
-	<rotz>-0.12278780396897286</rotz>
+	<rotw>0.6999094537181052</rotw>
+	<rotx>0.699909453718105</rotx>
+	<roty>-0.10063178720475772</roty>
+	<rotz>-0.10063178720475774</rotz>
 
 </baseToZframe>
 
@@ -2269,7 +2745,7 @@
 
 <baseToZframe>
 
-	<x>-34.925</x>
+	<x>-41.275</x>
 	<y>0.0</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
