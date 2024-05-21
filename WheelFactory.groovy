@@ -1,5 +1,6 @@
 import static com.neuronrobotics.sdk.addons.kinematics.VitaminFrame.*
 
+import com.neuronrobotics.bowlerstudio.creature.MobleBaseMenueFactory
 import com.neuronrobotics.sdk.addons.kinematics.AbstractLink
 import com.neuronrobotics.sdk.addons.kinematics.DHLink
 import com.neuronrobotics.sdk.addons.kinematics.DHParameterKinematics
@@ -22,17 +23,23 @@ if(args==null) {
 	args.put("electroMechanicalSize","v5_11w")
 	args.put("shaftType","vexWheels")
 	args.put("shaftSize","2_75InchOmni")
-	args.put("wheelName", "uniqueName")
+	args.put("wheelName", "omniWheel")
+}else {
+	if(List.class.isInstance(args)) {
+		args=args[0]
+	}
+}
+
+MobileBase generated = args.base
+if(generated==null) {
 	MobileBase g = new MobileBase();
-	g.setGitSelfSource(["https://github.com/CommonWealthRobotics/HolonomicWheels.git","2.75InchOmniExample.xml"]as String[])
+	g.setGitSelfSource(["https://github.com/CommonWealthRobotics/HolonomicWheels.git",args.get("shaftSize")+"Example.xml"]as String[])
 	g.setMassKg(0.001)
 	g.setScriptingName("OmniWheelGenerated")
 	g.setGitWalkingEngine(["https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git","exampleWalking.groovy"]as String[])
 	g.setGitCadEngine(["https://github.com/CommonWealthRobotics/BowlerStudioExampleRobots.git","exampleCad.groovy"]as String[])
-	args.put("base", g)
+	generated=g;
 }
-
-MobileBase generated = args.base
 for(String key:args.keySet()) {
 	//println "Key "+key+" value "+args.get(key)
 }
@@ -57,7 +64,7 @@ for(double i=0;i<args.numRollers;i++) {
 	rollerLimb.setScriptingName(_roller_TotalRollers)
 	double rotationAngle =(increment)*i +(j*increment/2)
 	TransformNR rotation = new TransformNR(0,0,0,RotationNR.getRotationZ(rotationAngle))
-	TransformNR displacemtn = new TransformNR(args.diameter/2,0,args.rollerDiameter/2 +((j*args.HubHeight) - j*args.rollerDiameter))
+	TransformNR displacemtn = new TransformNR(args.diameter/2-args.rollerDiameter/2,0,args.rollerDiameter/2 +((j*args.HubHeight) - j*args.rollerDiameter))
 	TransformNR rollerLocation = rotation
 				.times(displacemtn)
 				.times(new TransformNR(0,0,0,RotationNR.getRotationX(90)))
@@ -124,5 +131,5 @@ dh.setListener(new Affine());
 dh.setSlaveMobileBase(RollerBase)
 
 wheelLimb.addNewLink(wheelConfig, dh)
-
+MobleBaseMenueFactory.saveToXML(generated)
 return generated
