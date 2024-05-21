@@ -32,8 +32,8 @@
 	<upperVelocity>1200.0</upperVelocity>
 	<lowerVelocity>-1200.0</lowerVelocity>
 	<staticOffset>0.0</staticOffset>
-	<deviceTheoreticalMax>180.0</deviceTheoreticalMax>
-	<deviceTheoreticalMin>0.0</deviceTheoreticalMin>
+	<deviceTheoreticalMax>100000.0</deviceTheoreticalMax>
+	<deviceTheoreticalMin>-100000.0</deviceTheoreticalMin>
 	<isLatch>false</isLatch>
 	<indexLatch>0.0</indexLatch>
 	<isStopOnLatch>false</isStopOnLatch>
